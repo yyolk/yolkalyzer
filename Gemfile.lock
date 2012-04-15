@@ -1,10 +1,12 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    libxml-ruby (2.3.2)
     xml-simple (1.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  libxml-ruby
   xml-simple
