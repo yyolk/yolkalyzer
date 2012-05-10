@@ -1,8 +1,10 @@
 require 'ap'
 require "rexml/document"
-file = File.new( "AutoSave_KLAPPSTA armchair.dae" )
+file = File.new( ARGV[0] )
 doc = REXML::Document.new file
-newdoc = File.new("fuckedmodel4.dae", "w")
+
+
+newdoc = File.new(ARGV[1], "w")
 
 class Array
   def shuffle!
