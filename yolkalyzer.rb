@@ -1,4 +1,4 @@
-require 'ap'
+#require 'ap'
 require "rexml/document"
 file = File.new( ARGV[0] )
 doc = REXML::Document.new file
