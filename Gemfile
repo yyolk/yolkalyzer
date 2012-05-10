@@ -1,4 +1,4 @@
 source "http://rubygems.org"
-gem "xml-simple"
+gem "rexml"
 gem "libxml-ruby"
 gem "awesome_print"
