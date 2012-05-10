@@ -1,14 +1,10 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    awesome_print (1.0.2)
     libxml-ruby (2.3.2)
-    xml-simple (1.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  awesome_print
   libxml-ruby
-  xml-simple
