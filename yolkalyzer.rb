@@ -3,7 +3,6 @@ require "rexml/document"
 file = File.new( ARGV[0] )
 doc = REXML::Document.new file
 
-
 newdoc = File.new(ARGV[1], "w")
 
 REXML::XPath.each( doc, "//p") do |element| 
