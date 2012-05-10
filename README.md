@@ -1,7 +1,10 @@
 YOLKALYZER
 ======
-##A Collada DAE ***"glitcher"***. 
-###Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered as such: 
+##A Collada DAE ******"glitcher"******. 
+
+Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered as such: 
+
+> **BITMAP** => **Satromizer** :: **3D** => **YOLKALYZER**
 
 USAGE:
 ------
