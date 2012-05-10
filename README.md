@@ -13,7 +13,8 @@ Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered
 2. Change into the directory and install dependencies with `bundle`.
     ```
 cd yolkalyzer
-bundle install```
+bundle install
+    ```
 
-3. Run the script. 
+3. Run the script.
     ```ruby yolkalyzer.rb mesh/model.dae mesh/fuckedupmodel.dae```
