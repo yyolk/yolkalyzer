@@ -1,5 +1,5 @@
 #YOLKALYZER
-##A Collada DAE ***"glitcher"***. 
+##A Collada DAE ***"glitcher" / "texturizer"***. 
 
 Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered as such: 
 
