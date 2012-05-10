@@ -6,16 +6,6 @@ doc = REXML::Document.new file
 
 newdoc = File.new(ARGV[1], "w")
 
-class Array
-  def shuffle!
-    size.downto(1) { |n| push delete_at(rand(n)) }
-    self
-  end
-  def plusone!
-      size.downto(1){|n| n+=1.4 }
-      self
-  end
-end
 REXML::XPath.each( doc, "//p") do |element| 
     elements = element.text.split(' ')
     new_elements = []
