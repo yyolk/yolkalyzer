@@ -14,6 +14,5 @@ REXML::XPath.each( doc, "//p") do |element|
     element.text = elements.join(' ')
 end
 
-
 doc.write newdoc
 
