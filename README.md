@@ -10,7 +10,7 @@ Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered
 1. Clone the repo
     ```git clone git://github.com/yyolk/yolkalyzer.git```
 
-2. Change into the directory and install dependencies with `[bundle](http://gembundler.com/)`.
+2. Change into the directory and install dependencies with [bundle](http://gembundler.com/).
     ```
 cd yolkalyzer
 bundle install
