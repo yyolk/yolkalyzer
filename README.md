@@ -5,6 +5,12 @@ Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered
 
 > **BITMAP** => **Satromizer** :: **3D** => **YOLKALYZER**
 
+![](http://farm9.staticflickr.com/8017/7194214842_4f3e9385f0_o.png)
+
+turns into 
+
+![](http://farm6.staticflickr.com/5470/7194214902_0dc2497af6_o.png)
+
 ###USAGE:
 
 1. Clone the repo
