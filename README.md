@@ -9,7 +9,7 @@ Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered
 
 turns into 
 
-![](http://farm6.staticflickr.com/5470/7194214902_0dc2497af6_o.png)
+![](http://farm9.staticflickr.com/8159/7174927072_a97dd787cf_o.png)
 
 ###USAGE:
 
