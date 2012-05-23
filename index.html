@@ -26,34 +26,60 @@
         </ul>
       </header>
       <section>
-        <h1>YOLKALYZER</h1>
+      <h1 id="yolkalyzer">YOLKALYZER</h1>
 
-<h2>A Collada DAE <strong><em>"glitcher" / "texturizer"</em></strong>.</h2>
+      <h2 id="acolladadaeglitchertexturizer.">A Collada DAE <strong><em>&#8220;glitcher&#8221; / &#8220;texturizer&#8221;</em></strong>.</h2>
 
-<p>Inspired by <a href="http://jonsatrom.com/satromizer/">Satromizer</a> and can be considered as such: </p>
+      <p>Inspired by <a href="http://jonsatrom.com/satromizer/">Satromizer</a> and can be considered as such: </p>
 
-<blockquote>
-<p><strong>BITMAP</strong> =&gt; <strong>Satromizer</strong> :: <strong>3D</strong> =&gt; <strong>YOLKALYZER</strong></p>
-</blockquote>
-<p><img src="http://farm9.staticflickr.com/8017/7194214842_4f3e9385f0_o.png"></p>
-<p>turns into</p>
-<p><img src="http://farm6.staticflickr.com/5470/7194214902_0dc2497af6_o.png"></p>
+      <blockquote>
+          <p><strong>BITMAP</strong> =&gt; <strong>Satromizer</strong> :: <strong>3D</strong> =&gt; <strong>YOLKALYZER</strong></p>
+      </blockquote>
 
-<h3>USAGE:</h3>
+      <figure>
+      <img src="http://farm9.staticflickr.com/8017/7194214842_4f3e9385f0_o.png" alt="" /></figure>
 
-<ol>
-<li><p>Clone the repo
-<code>git clone git://github.com/yyolk/yolkalyzer.git</code></p></li>
-<li>
-<p>Change into the directory and install dependencies with <code>bundle</code>.</p>
 
-<pre><code>cd yolkalyzer
-bundle install
-</code></pre>
-</li>
-<li><p>Run the script.
-<code>ruby yolkalyzer.rb mesh/model.dae mesh/fuckedupmodel.dae</code></p></li>
-</ol>
+
+      <p>turns into </p>
+
+      <figure>
+      <img src="http://farm6.staticflickr.com/5470/7194214902_0dc2497af6_o.png" alt="" /></figure>
+
+
+
+      <h3 id="usage:">USAGE:</h3>
+
+      <h4 id="mac">Mac</h4>
+
+      <ol>
+          <li><p>Open the <code>Terminal.app</code> and enter the following commands.</p></li>
+          <li><p>Clone the repo
+          <code>git clone git://github.com/yyolk/yolkalyzer.git</code></p></li>
+          <li>Install <a href="http://gembundler.com/">Bundler</a>
+
+          <ul>
+              <li>System Ruby (Leopard, Snow Leopard, Lion etc…)
+
+              <ul>
+                  <li><code>sudo gem install bundler</code></li>
+                  <li>Confirm with password.</li>
+              </ul></li>
+              <li>with <code>[rbenv](https://github.com/sstephenson/rbenv)</code>:
+
+              <ul>
+                  <li><code>rbenv exec gem install bundler</code></li>
+              </ul></li>
+          </ul></li>
+          <li><p>Change into the directory and install dependencies with <a href="http://gembundler.com/">bundle</a>.
+          <code>
+              cd yolkalyzer
+              bundle install
+          </code></p></li>
+          <li><p>Run the script.
+          <code>ruby yolkalyzer.rb mesh/model.dae mesh/fuckedupmodel.dae</code></p></li>
+      </ol>
+
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/yyolk">yyolk</a></p>
