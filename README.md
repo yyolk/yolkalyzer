@@ -13,14 +13,27 @@ turns into
 
 ###USAGE:
 
-1. Clone the repo
+####Mac
+
+1. Open the `Terminal.app` and enter the following commands.
+
+2. Clone the repo
     ```git clone git://github.com/yyolk/yolkalyzer.git```
 
-2. Change into the directory and install dependencies with [bundle](http://gembundler.com/).
+3. Install [Bundler](http://gembundler.com/)
+    * System Ruby (Leopard, Snow Leopard, Lion etc…)
+		* ```sudo gem install bundler```
+		* Confirm with password.
+    * with `[rbenv](https://github.com/sstephenson/rbenv)`:
+    	* ```rbenv exec gem install bundler```
+
+
+4. Change into the directory and install dependencies with [bundle](http://gembundler.com/).
     ```
 cd yolkalyzer
 bundle install
     ```
 
-3. Run the script.
+5. Run the script.
     ```ruby yolkalyzer.rb mesh/model.dae mesh/fuckedupmodel.dae```
+
