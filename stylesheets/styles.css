@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:300,700);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 Inconsolata, monospace;
+  color:#444;
+  background-color:#fbfbfb;
   font-weight:300;
 }
 
@@ -21,7 +22,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:36px;
 }
 
 h2 {
@@ -166,7 +167,7 @@ section {
 }
 
 small {
-  font-size:11px;
+  font-size:7px;
 }
 
 hr {
@@ -180,7 +181,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -252,4 +253,11 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+#YOLK a{
+
+    text-transform:uppercase;
+    letter-spacing:.2em;
+
 }
