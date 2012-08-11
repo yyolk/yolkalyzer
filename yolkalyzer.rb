@@ -1,4 +1,3 @@
-#require 'ap'
 require "rexml/document"
 file = File.new( ARGV[0] )
 doc = REXML::Document.new file
@@ -9,7 +8,7 @@ REXML::XPath.each( doc, "//p") do |element|
     elements = element.text.split(' ')
     new_elements = []
     elements.each{ |ele| new_elements << (Integer rand(Float ele)).to_s }
-    #elements.each{ |ele| new_elements << ele  }
+    #elements.each{ |ele| new_elements << ele  } #This is for hackers ;)
     elements.replace(new_elements)
     element.text = elements.join(' ')
 end
