@@ -261,6 +261,10 @@ footer {
   }
 }
 
+code{
+  font-weight: bold;
+}
+
 #YOLK a{
 
     text-transform:uppercase;
