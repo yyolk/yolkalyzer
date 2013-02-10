@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require "rexml/document"
 file = File.new( ARGV[0] )
 doc = REXML::Document.new file
