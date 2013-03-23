@@ -17,8 +17,11 @@ turns into
 
 1. Open the `Terminal.app` and enter the following commands.
 
-2. Clone the repo
+2. Either:
+  - Clone the repo
     ```git clone git://github.com/yyolk/yolkalyzer.git```
+  - Or Download a [tarball](https://github.com/yyolk/yolkalyzer/tarball/master) or [zip](https://github.com/yyolk/yolkalyzer/zipball/master).
+
 
 3. Change into the directory.
     ```
