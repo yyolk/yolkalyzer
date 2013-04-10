@@ -172,12 +172,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:800.000000</string>
+				<string>309.500000:498.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -236,7 +234,7 @@
 					<string>#grab yolkalyzer
 curl -O "https://raw.github.com/yyolk/yolkalyzer/master/yolkalyzer.rb"
 #store our directory name in a var
-export dirdir="$HOME/fukd_dae-`date +'%Y%M%d-%H%m%s'`"
+export dirdir="$HOME/Desktop/fukd_dae-`date +'%Y%M%d-%H%m%s'`"
 # create dir for our fukd .dae
 mkdir "$dirdir"
 
@@ -359,12 +357,10 @@ rm ~/yolkalyzer.rb</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:383.000000</string>
+				<string>309.500000:301.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -374,7 +370,7 @@ rm ~/yolkalyzer.rb</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>682EFB52-1038-4AD6-BBF7-C6E5D7E6A86C</key>
+		<key>4F1E2CE6-DF96-41FC-971E-F64F69BBFCD7</key>
 		<dict>
 			<key>from</key>
 			<string>02ABEA9E-29EA-463F-927F-822B1C445450 - 02ABEA9E-29EA-463F-927F-822B1C445450</string>
