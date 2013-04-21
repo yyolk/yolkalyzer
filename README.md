@@ -1,7 +1,7 @@
 #YOLKALYZER
 ##A Collada DAE ***"glitcher" / "texturizer"***. 
 
-Inspired by [Satromizer](http://jonsatrom.com/satromizer/) and can be considered as such: 
+Inspired by [Satromizer](http://satromizer.com/) and can be considered as such: 
 
 > **BITMAP** => **Satromizer** :: **3D** => **YOLKALYZER**
 
