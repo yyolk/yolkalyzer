@@ -32,12 +32,12 @@
       monster by <a href="http://www.3drt.com/downloads.htm" target="_blank">3drt</a>
     </div>
 
-    <script src="http://54.235.139.192/openrepo/_design/0P3NR3P0/js/three.min.js"></script>
+    <script src="three.min.js"></script>
 
-    <script src="http://54.235.139.192/openrepo/_design/0P3NR3P0/js/ColladaLoader.js"></script>
+    <script src="ColladaLoader.js"></script>
 
-    <script src="http://54.235.139.192/openrepo/_design/0P3NR3P0/js/Detector.js"></script>
-    <script src="http://54.235.139.192/openrepo/_design/0P3NR3P0/js/stats.min.js"></script>
+    <script src="Detector.js"></script>
+    <script src="stats.min.js"></script>
 
     <script>
 
@@ -51,7 +51,7 @@
 
       var loader = new THREE.ColladaLoader();
       loader.options.convertUpAxis = true;
-      loader.load( 'http://54.235.139.192/openrepo/collada/monster.dae', function ( collada ) {
+      loader.load( 'monster.dae', function ( collada ) {
 
         dae = collada.scene;
         skin = collada.skins[ 0 ];
